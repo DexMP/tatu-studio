@@ -27,10 +27,19 @@ main {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 26px;
 }
 
 .menu-container a:hover {
   background: #ddd;
   color: black;
+}
+
+.frame {
+  margin: 0;
+}
+
+.background-img {
+  width: 100%;
+  height: 75wh;
 }
