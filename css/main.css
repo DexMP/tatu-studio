@@ -1,5 +1,21 @@
+/*
+  Imports
+*/
+
+/*
+  Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/*
+
+*/
 body {
+  width: auto;
+  height: auto;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1A1A1D;
+  background-image: url(../pic/background.jpg);
 }
 
 header {
@@ -8,7 +24,7 @@ header {
 
 .menu-container {
   overflow: hidden;
-  background-color: #333;
+  background-color: #1A1A1D;
   position: fixed;
   top: 0;
   width: 100%;
@@ -17,7 +33,7 @@ header {
 .menu-container a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -25,6 +41,22 @@ header {
 }
 
 .menu-container a:hover {
-  background: #ddd;
-  color: black;
+  background: #950740;
+  color: white;
+}
+
+main {
+  margin 0;
+}
+
+.news-container {
+  margin: 70px 10% 10% 10%;
+  padding: 10%;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.news {
+  background-color: #C3073F;
+  margin: 25%;
 }
